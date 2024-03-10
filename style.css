@@ -1,0 +1,139 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 70px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header li {
+    padding-left: 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.presentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.placeholder {
+    width: 500px;
+    height: 150px;
+    background-color: grey;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-section li {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    margin: 0px 20px 40px;
+}
+
+li div {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
+}
+
+li p {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 200px 60px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p {
+    margin-left: auto;
+    margin-top: -10px;
+}
+
+cite {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 0px;
+    font-size: 14px;
+}
+
+.second-button {
+    border: 3px solid white;
+}
+
+.call {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 200px;
+    padding: 10px 0px 10px;
+    border-radius: 10px;
+}
+
+h4 {
+    font-size: large;
+    margin-top: 10px;
+}
+
+.call p {
+    margin-top: -20px;
+}
